@@ -21,8 +21,11 @@
 </head>
 
 <body>
-  <header class="sticky-top">
-    <div class="container-lg">
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header class="fixed-top bg-transparent">
+    <div class="container-xl">
       <div class="d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo">
           <img src="./images/brand/logo.svg" alt="Logo" />
@@ -78,21 +81,130 @@
       </div>
     </div>
   </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
   <main>
-    <section class="hero">
-      <div class="container-lg">
-        <div class="hero_wrapper">
+    <!-- hero -->
+    <section class="hero d-flex align-items-center">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <div class="hero_content text-md-start text-center">
+              <hgroup>
+                <h1 class="display-4 fw-bold text-light hero_heading mb-4" data-aos="fade-up">Easy & <span class="text-secondary">Digital Online Payment</span> Solutions</h1>
+                <p class="text-light hero_desc" data-aos="fade-up" data-aos-delay="200">Malesuada pretium sclerisque dcmo at diam fusce montes sociosqu etiam vivamus netus nostra</p>
+              </hgroup>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#" class="btn btn-lg btn-secondary mt-5">get started</a>
+              </div>
+            </div>
+            <div class="trusted_companies_parent text-light text-md-start text-center mt-5">
+              <h2 class="trusted_headline" data-aos="fade-up" data-aos-delay="600">Trusted by leading companies</h2>
+              <div class="trusted_companies mt-4 d-flex align-items-center justify-content-md-start justify-content-center" data-aos="fade-up" data-aos-delay="800">
+                <object data="./images/companies/dropbox.svg" width="30"></object>
+                <object data="./images/companies/amazon.svg" width="30"></object>
+                <object data="./images/companies/apple-logo.svg" width="30"></object>
+                <object data="./images/companies/google.svg" width="30"></object>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 offset-lg-1 d-md-block d-none">
+            <div class="hero_imgs d-flex flex-column">
+              <img src="images/hero_images/hero_img1.webp" class="img-fluid" data-aos="fade-down" alt="">
+              <img src="images/hero_images/hero_img2.webp" class="img-fluid" data-aos="fade-left" data-aos-delay="400" alt="">
+              <img src="images/hero_images/hero_img3.webp" class="img-fluid" data-aos="fade-up" data-aos-delay="800" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Counter -->
+    <section class="counter">
+      <div class="container-xl">
+        <div class="row gy-5">
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="counter_item text-center">
+              <h3 class="counter_count mb-1 text-black">
+                <span data-num="1200">250</span>+
+              </h3>
+              <p class="counter_label">Trusted by companies</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="counter_item text-center">
+              <h3 class="counter_count mb-1 text-black">
+                <span data-num="20"></span>M+
+              </h3>
+              <p class="counter_label">People of Vault Bank</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="counter_item text-center">
+              <h3 class="counter_count mb-1 text-black">
+                <span data-num="85"></span>%
+              </h3>
+              <p class="counter_label">Revenue Growth</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="counter_item text-center">
+              <h3 class="counter_count mb-1 text-black">
+                <span data-num="24"></span>/7
+              </h3>
+              <p class="counter_label">Customer Care</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  features -->
+    <section class="feature">
+      <div class="container-xl">
+        <div class="row gy-3 align-items-center mb-5">
+          <div class="col-md-4" data-aos="fade-up">
+            <h3 class="feature_heading display-5">Why You Should Use Vault Bank</h3>
+          </div>
+          <div class="col-md-4 offset-md-3" data-aos="fade-up">
+            <p>Clean Bank is the future of banking where money can be sent anywhere, anytime and you can hold your own private keys.</p>
+          </div>
+        </div>
+        <div class="row gy-5">
+          <div class="col-md-4 col-sm-6 col-12 feature-item">
+            <h4 data-aos="fade-up">01</h4>
+            <p class="feature-title" data-aos="fade-up">All credit card companies</p>
+            <p data-aos="fade-up">Pay with Visa, MasterCard, American Express, Discover, JCB and Union Pay with a few simple taps.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 feature-item">
+            <h4 data-aos="fade-up">02</h4>
+            <p data-aos="fade-up" class="feature-title">Touchless payments</p>
+            <p data-aos="fade-up">Tap to pay with Visa, MasterCard, American Express, Discover, JCB, Union Pay and more.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 feature-item">
+            <h4 data-aos="fade-up">03</h4>
+            <p data-aos="fade-up" class="feature-title">Multi Currency</p>
+            <p data-aos="fade-up">Pay with your Visa, MasterCard, American Express, Discover, JCB, Union Pay and more in just a few quick taps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
   </main>
+  <!--====  End of Main  ====-->
+  <!-- Javascript Files -->
   <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
   <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="./plugins/aos-2.0.0/aos.js"></script>
   <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/counter.min.js"></script>
   <script type="text/javascript" src="./js/script.js"></script>
   <script>
-  AOS.init();
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 0,
+  });
   </script>
 </body>
 
